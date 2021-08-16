@@ -1,0 +1,34 @@
+.new-expense {
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+}
+
+.new-expense__actions {
+  display: flex;
+  justify-content: center;
+
+  height: 2.5rem;
+}
+
+.btn {
+  background-color: #5686df;
+  color: #fff;
+  border: none;
+  box-shadow: 2px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #2a4f92;
+  transition: all 0.1s;
+  color: rgb(221, 220, 255);
+}
+
+.btn:active {
+  transform: translateY(2px);
+  background-color: #3c63ad;
+}
